@@ -4,9 +4,19 @@ class ScratchFetch {
     
     getInfo() {
         return {
-            "id": "Fetch",
-            "name": "Fetch",
-            "blocks": [ /* add later */ ]
+            "id": "Window HTML",
+            "name": "Window HTML",
+            "blocks": [                        {
+                            "opcode": "fetchURL",
+                            "blockType": "reporter",
+                            "text": "fetch data from [url]",
+                            "arguments": {
+                                "url": {
+                                    "type": "string",
+                                    "defaultValue": "https://api.weather.gov/stations/KNYC/observations"
+                                },
+                            }
+                        },]
         }
     }
 
