@@ -16,7 +16,7 @@ class ScratchFetch {
                                     "defaultValue": "https://api.weather.gov/stations/KNYC/observations"
                                 },
                             }
-                        },]
+                        }]
         }
     }
 
